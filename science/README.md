@@ -12,3 +12,5 @@ Read these pages in order for the connected argument:
 6. [Regimes and interpretation](interpretation.md): what the comparison establishes, dimension requirements and limitations.
 
 The [related-work account](../references/RELATED_WORK.md) distinguishes the multiclass consequence from inherited binary identification, Haar integration, state-estimation and discrimination tools. The [verification route](../verification/README.md) checks representative finite instances.
+
+For a conceptual route, begin with the [worked three-qubit example](../learning/WALKTHROUGH.md), then use the [Watrous bridge](../learning/ANCHOR_AND_BRIDGE.md) and [30 milestones](../learning/MILESTONES.md).

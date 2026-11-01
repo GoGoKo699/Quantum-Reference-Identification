@@ -44,3 +44,5 @@ roundoff. Assertions use explicit numerical tolerances. A passed finite check
 is neither a proof of an arbitrary-parameter statement nor a novelty review.
 
 The checked dependency versions are pinned in [requirements.txt](requirements.txt). The saved [results.json](results.json) records the reproducible reference run; `results.new.json` is an optional fresh output for comparison.
+
+See [hosted mathematics](hosted/README.md) for the separate source-to-GitHub rendering check and its visual-review limits.

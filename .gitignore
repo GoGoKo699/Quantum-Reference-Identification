@@ -1,3 +1,5 @@
 __pycache__/
 *.py[cod]
 verification/results.new.json
+/science-results.json
+/hosted-evidence/
