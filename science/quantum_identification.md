@@ -231,7 +231,7 @@ The same sequential algorithm, with the same fixed operations, obeys the determi
 
 ```math
 e_{\mathrm{seq}}(\text{library})
-\leq\frac4M\sum_{i<j}F_{m,t}(x_{ij}).
+\leq\frac4M\sum_{i\lt j}F_{m,t}(x_{ij}).
 ```
 If every overlap is at most $`\delta`$, then $`F_{m,t}(x)\leq e^{mt\delta}/B`$, so the mean error is at most $`2(M-1)e^{mt\delta}/B`$; the worst per-label error is at most twice that value. These are sufficient library conditions, without a pointwise converse.
 
