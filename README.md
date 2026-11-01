@@ -38,7 +38,7 @@ The logarithm is natural. The ceiling is attained to leading order by independen
 | Which ingredients and results are inherited? | [Related work](references/RELATED_WORK.md) |
 | How can the finite identities be reproduced? | [Verification](verification/README.md) |
 
-Start with the [connected science route](science/README.md). The [LLM reading guide](llms.txt) maps questions directly to proofs.
+Start with the [connected science route](science/README.md), or follow the [three-qubit walkthrough](learning/WALKTHROUGH.md). The [learning route](learning/README.md) connects the selected Watrous anchor to a [30-milestone map](learning/MILESTONES.md) and the full proofs. The [LLM reading guide](llms.txt) maps questions directly to authoritative sources.
 
 ## Reproduce
 
@@ -47,7 +47,7 @@ python3 -m pip install -r verification/requirements.txt
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3 verification/check_reference_identification.py
 ```
 
-The verification guide states the tested instances, numerical tolerances and limits. Dense finite checks supplement the analytical proofs; they do not establish an unrestricted optimal measurement numerically.
+The verification guide states the tested instances, numerical tolerances and limits. The [hosted-rendering check](verification/hosted/README.md) captures commit-pinned mathematical pages at wide and narrow widths. Dense finite checks supplement the analytical proofs; they do not establish an unrestricted optimal measurement numerically.
 
 ## Scope
 

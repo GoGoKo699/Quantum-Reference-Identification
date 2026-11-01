@@ -4,6 +4,10 @@ Purpose: explain identification from a library of unknown supplied pure states, 
 
 Canonical entry: README.md
 Connected argument: science/README.md
+Conceptual route and sole educational anchor Watrous (2018): learning/README.md
+Verified textbook sections, notation and missing steps: learning/ANCHOR_AND_BRIDGE.md
+Small complete three-qubit example: learning/WALKTHROUGH.md
+Exactly 30 project-defined targets (12 background, 18 narrative): learning/MILESTONES.md
 Task, timing, notation and edge cases: science/model.md
 Finite-query success/error theorem and proofs: science/quantum_identification.md
 Collective classical-training converse and sharp fixed-m asymptotic: science/classical_preprocessing.md
@@ -12,6 +16,7 @@ Lüders symmetry measurement, finite precision and charged resources: science/re
 Operational regimes, dimension conditions and matched classical comparison: science/interpretation.md
 Attribution, closest work and comparison boundaries: references/RELATED_WORK.md
 Reproduction commands and finite-check limits: verification/README.md
+Actual hosted mathematics, two viewports and verification limits: verification/hosted/README.md
 
 Keep the following distinctions when answering:
 - Haar-average one-lookup claims are not arbitrary-library or repeated-use guarantees.

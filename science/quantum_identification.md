@@ -39,7 +39,7 @@ $$
 
 Thus $P_{\mathrm{opt}}=\Theta(\min\{1,C/M\})$ and $e_{\mathrm{opt}}=\Theta(\min\{1,(M-1)/C\})$, with absolute constants. The two order statements describe different parts of the same tradeoff: success when identification is difficult, and error when it is reliable. Neither asserts an exact formula for the finite-query optimum.
 
-For $0<\epsilon\leq1/8$, error at most $\epsilon$ requires
+For $0\lt\epsilon\leq1/8$, error at most $\epsilon$ requires
 
 $$
 C\geq\frac{M-1}{16\epsilon},
@@ -170,7 +170,7 @@ $$
 
 Averaging the uniformly distributed label proves $e_{\mathrm{seq}}\leq2(M-1)/C$, with the trivial cap at one. The union bound applies to the mixed averaged hypotheses by linearity or purification. It explicitly accounts for the disturbance caused by earlier rejections; independent-test reasoning would not justify this protocol.
 
-An efficient algorithm also attains the success order in the difficult regime. If $C<4$, random guessing suffices up to a constant factor. Otherwise choose a uniformly random subset of
+An efficient algorithm also attains the success order in the difficult regime. If $C\lt4$, random guessing suffices up to a constant factor. Otherwise choose a uniformly random subset of
 
 $$
 \ell=\min\{M,\lfloor C/4\rfloor\}

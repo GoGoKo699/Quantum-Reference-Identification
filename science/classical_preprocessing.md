@@ -170,7 +170,7 @@ This proves the required upper bound. In particular, no approximation of $D_{ms}
 
 ### Attaining lower bound
 
-Set $Y_j=-(d-1)\log(1-X_j)$. These variables are independent exponential variables of mean one. Their maximum $H=\max_jY_j$ obeys, for every fixed $0<\delta<1$,
+Set $Y_j=-(d-1)\log(1-X_j)$. These variables are independent exponential variables of mean one. Their maximum $H=\max_jY_j$ obeys, for every fixed $0\lt\delta\lt1$,
 
 $$
 \Pr[H>(1+\delta)L]\leq M^{-\delta},\qquad
