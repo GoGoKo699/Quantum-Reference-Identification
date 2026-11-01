@@ -4,19 +4,19 @@
     {
       "path": "README.md",
       "index": 5,
-      "source_sha256": "c9bafb65d1ce054b440b26ac700f577782b0032e7b9b66c0474f0c81f3dbdedf",
+      "source_sha256": "b517ec1db003919915a8b7a5c8e27e7a3b9594d90147595be029f3ae68dcb3a7",
       "expected_text": "\n  \n    D\n    s\n  \n  =\n  \n    \n      (\n    \n    \n      \n        d\n        +\n        s\n        −\n        1\n      \n      s\n    \n    \n      )\n    \n  \n  ,\n  \n    \n  \n  C\n  =\n  \n    \n      \n        D\n        m\n      \n      \n        D\n        t\n      \n    \n    \n      D\n      \n        m\n        +\n        t\n      \n    \n  \n  .\n"
     },
     {
       "path": "README.md",
       "index": 7,
-      "source_sha256": "7277c68e7a17a32ea7e4b906aa723e8ba20967ccf990f3b7197a8cfa7b3928d9",
+      "source_sha256": "d1b73ea42d329cddd0d80ae4abda25288984148238be41775cbca5c7e0a82aab",
       "expected_text": "\n  \n    \n      M\n      −\n      1\n    \n    \n      8\n      C\n      +\n      4\n      (\n      M\n      −\n      2\n      )\n    \n  \n  ≤\n  \n    e\n    \n      \n        opt\n      \n    \n  \n  ≤\n  \n    \n      M\n      −\n      1\n    \n    \n      C\n      +\n      M\n      −\n      1\n    \n  \n  .\n"
     },
     {
       "path": "README.md",
       "index": 15,
-      "source_sha256": "270757538da7c40f163fb016a7d14113602b70cb24efd3b26181576243cca2bd",
+      "source_sha256": "6b9671bf5bbf6c1cf159ee8acf23baec59b7991c4487d24738f57ff31d549704",
       "expected_text": "\n  \n    P\n    \n      \n        classical\n      \n    \n    \n      \n        revealed\n      \n    \n  \n  =\n  (\n  1\n  +\n  o\n  (\n  1\n  )\n  )\n  \n    \n      (\n      log\n      ⁡\n      M\n      \n        )\n        m\n      \n    \n    \n      m\n      !\n      M\n    \n  \n  .\n"
     },
     {
@@ -34,68 +34,68 @@
     {
       "path": "learning/WALKTHROUGH.md",
       "index": 36,
-      "source_sha256": "91e81422c578a21eb7ffbe22868c14e0c34b641b97a7a24e02ac10b8bf54a8bf",
+      "source_sha256": "996f06d3c4b90db25f993f379d2d64d56d6115e3a1454de53abd2cddf2209eb5",
       "expected_text": "\n  \n    P\n    \n      \n        opt\n      \n    \n  \n  =\n  \n    1\n    2\n  \n  +\n  \n    1\n    4\n  \n  ∥\n  \n    ρ\n    1\n  \n  −\n  \n    ρ\n    2\n  \n  \n    ∥\n    1\n  \n  =\n  \n    1\n    2\n  \n  +\n  \n    \n      3\n    \n    12\n  \n  ≈\n  0.644338\n  .\n"
     },
     {
       "path": "learning/WALKTHROUGH.md",
       "index": 48,
-      "source_sha256": "d7f0e4123f79744bbe7f5c761613ff6c745092b3de4f1549ecf10b5aa878c6ce",
+      "source_sha256": "255540598648d601d38978c9f40acff2e7c93a3a54a75bdb374605189a6d62cc",
       "expected_text": "\n  \n    P\n    \n      \n        quantum\n        ,\n        revealed\n      \n    \n  \n  =\n  \n    1\n    2\n  \n  ⋅\n  1\n  +\n  \n    1\n    2\n  \n  ⋅\n  \n    1\n    2\n  \n  =\n  \n    3\n    4\n  \n  .\n"
     },
     {
       "path": "science/classical_preprocessing.md",
       "index": 41,
-      "source_sha256": "e2f90f6640d4550a0197b4986056b5c79992acc60716b4171d0dec61810d1c7e",
+      "source_sha256": "e36ac5671ab570c0e49f93e181913def5b5b9bcca6cccc0008df56cd8ac5b713",
       "expected_text": "\n  \n    \n      \n        \n          \n            P\n            \n              \n                cl\n              \n            \n            \n              \n                rev\n              \n            \n          \n          (\n          d\n          ,\n          M\n          ,\n          m\n          )\n          ≤\n          min\n          \n            {\n            1\n            ,\n            \n              inf\n              \n                s\n                ∈\n                \n                  \n                    N\n                  \n                  \n                    ≥\n                    1\n                  \n                \n              \n            \n            \n              M\n              \n                1\n                \n                  /\n                \n                s\n                −\n                1\n              \n            \n            \n              \n                D\n                m\n              \n              \n                D\n                \n                  m\n                  s\n                \n                \n                  1\n                  \n                    /\n                  \n                  s\n                \n              \n            \n            }\n          \n          .\n        \n      \n    \n  \n"
     },
     {
       "path": "science/classical_preprocessing.md",
       "index": 69,
-      "source_sha256": "2b768d14e190a5ad481e35b81d0d515757649023c1b05c74a14260ad1daba3e2",
+      "source_sha256": "1c1cf3e948fbf79f4c80e663ecad50bdec91b24db8b9179f38aadb86738c46b6",
       "expected_text": "\n  \n    \n      \n        \n          \n            P\n            \n              \n                cl\n              \n            \n            \n              \n                rev\n              \n            \n          \n          (\n          d\n          ,\n          M\n          ,\n          m\n          )\n          =\n          (\n          1\n          +\n          o\n          (\n          1\n          )\n          )\n          \n            \n              (\n              log\n              ⁡\n              M\n              \n                )\n                m\n              \n            \n            \n              m\n              !\n              M\n            \n          \n          .\n        \n      \n    \n  \n"
     },
     {
       "path": "science/classical_preprocessing.md",
       "index": 114,
-      "source_sha256": "63f1ebef15c8ce57a900d04dada07a47062d9f4354a8b8ced9dbaf4c75d55a8a",
+      "source_sha256": "b08de312b67e00dc0b4e32fef2bb3cf435eb6bc7aa45c68c02eaaf77391df387",
       "expected_text": "\n  \n    P\n    \n      \n        cl\n      \n    \n  \n  (\n  d\n  ,\n  M\n  ,\n  m\n  ,\n  t\n  )\n  ≤\n  1\n  −\n  α\n  +\n  \n    α\n    M\n  \n  ≤\n  \n    1\n    M\n  \n  +\n  \n    \n      m\n      t\n    \n    d\n  \n  .\n"
     },
     {
       "path": "science/quantum_identification.md",
       "index": 18,
-      "source_sha256": "966a968e077c55b1ff406029d93606b0b14bec9d058a21aec2867909264f4dae",
+      "source_sha256": "22cc3250d3e87d72a426ea3ef7e456cfa21c9d0a15070cbb03976d327f4c3389",
       "expected_text": "\n  \n    C\n    \n      C\n      +\n      M\n      −\n      1\n    \n  \n  ≤\n  \n    P\n    \n      \n        opt\n      \n    \n  \n  ≤\n  min\n  \n    \n  \n  \n    {\n    1\n    ,\n    \n      C\n      M\n    \n    }\n  \n  ,\n"
     },
     {
       "path": "science/quantum_identification.md",
       "index": 19,
-      "source_sha256": "a4e027a9b909da7a9b53d1cf821e205c4fb608f0463e50dc70fde991b9046348",
+      "source_sha256": "7a8180eb27c3a567a6a6ded1110b816b70883ada3d1e7438d5516969a28cb3ce",
       "expected_text": "\n  max\n  \n    \n  \n  \n    {\n    0\n    ,\n    1\n    −\n    \n      C\n      M\n    \n    ,\n    \n      \n        M\n        −\n        1\n      \n      \n        8\n        C\n        +\n        4\n        (\n        M\n        −\n        2\n        )\n      \n    \n    }\n  \n  ≤\n  \n    e\n    \n      \n        opt\n      \n    \n  \n  ≤\n  \n    \n      M\n      −\n      1\n    \n    \n      C\n      +\n      M\n      −\n      1\n    \n  \n  .\n"
     },
     {
       "path": "science/quantum_identification.md",
       "index": 107,
-      "source_sha256": "777ced1382587926e814d01db7f6463213d726d59574d10c87935528d117cd05",
+      "source_sha256": "8fc6365b8706e1998f311e8fc482d183a29f7bd9a77f71cf2d82695a7dca2c27",
       "expected_text": "\n  \n    e\n    \n      \n        opt\n      \n    \n  \n  ≥\n  \n    \n      β\n      2\n    \n    \n      4\n      (\n      2\n      β\n      +\n      γ\n      )\n    \n  \n  =\n  \n    \n      M\n      −\n      1\n    \n    \n      8\n      C\n      +\n      4\n      (\n      M\n      −\n      2\n      )\n    \n  \n  .\n"
     },
     {
       "path": "science/resources.md",
       "index": 25,
-      "source_sha256": "88388428c4a1f1fa7f2dd4fa6160ac71aeb416afdf92744e38eded1d523785f1",
+      "source_sha256": "1f38a5110b3ceeb88a4a25d1d1f07938b582ac50f8a73741a0dc95f90834f939",
       "expected_text": "\n  \n    W\n    †\n  \n  (\n  \n    Z\n    0\n  \n  ⊗\n  I\n  )\n  W\n  (\n  |\n  0\n  ⟩\n  v\n  )\n  =\n  |\n  0\n  ⟩\n  (\n  2\n  P\n  −\n  I\n  )\n  v\n"
     },
     {
       "path": "science/resources.md",
       "index": 53,
-      "source_sha256": "945ca1bb3d2ff9877960d3b67703aa0348d178756e41d44073295ec71f393909",
+      "source_sha256": "9ff4c07bd7b18310611ef26d9f05512b49683f5ec7162aaa6f09fa5ff73194cd",
       "expected_text": "\n  O\n  \n    \n  \n  \n    (\n    M\n    G\n    log\n    ⁡\n    \n      \n        M\n        G\n      \n      η\n    \n    )\n  \n  ,\n  \n    \n  \n  G\n  =\n  O\n  \n    \n  \n  \n    (\n    \n      K\n      2\n    \n    (\n    q\n    +\n    log\n    ⁡\n    K\n    )\n    )\n  \n  .\n"
     },
     {
       "path": "science/revealed_query.md",
       "index": 6,
-      "source_sha256": "350f396441062b395d913c967d4106f318911ba86edc378c8b07de694ce1d0ed",
-      "expected_text": "\n  \n    \n      \n        \n          P\n          \n            \n              quantum\n              ,\n              revealed\n            \n          \n        \n      \n      \n        \n        =\n        \n          E\n        \n        \n          \n        \n        \n          [\n          \n            1\n            \n              1\n              +\n              Bin\n              (\n              M\n              −\n              1\n              ,\n              1\n              \n                /\n              \n              \n                D\n                m\n              \n              )\n            \n          \n          ]\n        \n      \n    \n    \n      \n      \n        \n        =\n        \n          \n            D\n            m\n          \n          M\n        \n        \n          [\n          1\n          −\n          \n            \n              (\n              1\n              −\n              \n                1\n                \n                  D\n                  m\n                \n              \n              )\n            \n            M\n          \n          ]\n        \n        .\n      \n    \n  \n"
+      "source_sha256": "77f148a3cc5089a520a3aaa50b254e11fd33bb46cc03b95bde1e0e4374a41cd9",
+      "expected_text": "\n  \n    \n      \n        \n          P\n          \n            \n              quantum\n              ,\n              revealed\n            \n          \n        \n      \n      \n        \n        =\n        \n          E\n        \n        \n          \n        \n        \n          [\n          \n            1\n            \n              1\n              +\n              \n                Bin\n              \n              (\n              M\n              −\n              1\n              ,\n              1\n              \n                /\n              \n              \n                D\n                m\n              \n              )\n            \n          \n          ]\n        \n      \n    \n    \n      \n      \n        \n        =\n        \n          \n            D\n            m\n          \n          M\n        \n        \n          [\n          1\n          −\n          \n            \n              (\n              1\n              −\n              \n                1\n                \n                  D\n                  m\n                \n              \n              )\n            \n            M\n          \n          ]\n        \n        .\n      \n    \n  \n"
     }
   ]
 }
