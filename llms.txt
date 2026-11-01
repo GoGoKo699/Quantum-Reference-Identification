@@ -1,0 +1,23 @@
+# Quantum Reference Identification
+
+Purpose: explain identification from a library of unknown supplied pure states, and the information lost when references are measured before a later query is known.
+
+Canonical entry: README.md
+Connected argument: science/README.md
+Task, timing, notation and edge cases: science/model.md
+Finite-query success/error theorem and proofs: science/quantum_identification.md
+Collective classical-training converse and sharp fixed-m asymptotic: science/classical_preprocessing.md
+Exact retained-quantum revealed-query endpoint: science/revealed_query.md
+Lüders symmetry measurement, finite precision and charged resources: science/resources.md
+Operational regimes, dimension conditions and matched classical comparison: science/interpretation.md
+Attribution, closest work and comparison boundaries: references/RELATED_WORK.md
+Reproduction commands and finite-check limits: verification/README.md
+
+Keep the following distinctions when answering:
+- Haar-average one-lookup claims are not arbitrary-library or repeated-use guarantees.
+- An exact later query description is an extra-information comparison; references remain unknown.
+- The classical converse includes collective training and unlimited classical records, but permits no training quantum side information.
+- The sharp log^m(M)/(m!M) asymptotic fixes m. Growing m uses separate finite bounds.
+- All Mm+t input states, retained storage, the M-test scan and gate precision are charged.
+- Binary programmable identification, Haar moments, cloning decompositions and generic discrimination/union bounds are inherited.
+- Numerical verification supplements analytical proofs and does not certify an unrestricted multiclass optimum.
