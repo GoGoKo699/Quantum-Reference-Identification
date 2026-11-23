@@ -2,7 +2,7 @@
 
 [Repository](../README.md) · [Scientific account](../science/README.md) · [Thirty milestones](MILESTONES.md)
 
-A small unknown quantum reference library arrives before its query. The central distinction is whether those physical references survive until the query is known. The learning route builds the language needed to follow the quantum identification frontier, the classical preprocessing ceiling, and their resource-matched comparison.
+A small unknown quantum reference library arrives before its query. The learning route builds the language needed to follow the quantum identification frontier, the classical preprocessing ceiling, and what changes when one label is more probable than the others.
 
 The sole educational anchor is John Watrous, *The Theory of Quantum Information* (2018). Use the author's [official pre-publication PDF](https://cs.uwaterloo.ca/~watrous/TQI/TQI.pdf), with the notation and project-specific missing steps in the [anchor bridge](ANCHOR_AND_BRIDGE.md). The relevant foundations are states and operations in Chapter 2, discrimination and channel distances in Chapter 3, and symmetry and invariant measures in Chapter 7. Chapter 1 supplies the specific linear-algebra, convexity and probability tools when they are needed. Reading the entire book is not a prerequisite.
 
@@ -12,8 +12,9 @@ The [worked walkthrough](WALKTHROUGH.md) gives a concrete route from a small com
 
 1. Read the [model](../science/model.md) and distinguish the three information settings.
 2. Follow [finite-query quantum identification](../science/quantum_identification.md) and the [classical preprocessing theorem](../science/classical_preprocessing.md).
-3. Compare their [exactly revealed-query endpoints](../science/revealed_query.md).
-4. Check the [instrument and resource account](../science/resources.md), then the [regimes and limitations](../science/interpretation.md).
-5. Use [related work](../references/RELATED_WORK.md) and [verification](../verification/README.md) to distinguish attribution, proof and finite checks.
+3. Use the finite-query posterior to derive the [prior threshold](../science/prior_weighted_identification.md), then check why a unique most probable label also forces a retained-reference advantage.
+4. Compare the [exactly revealed-query endpoints](../science/revealed_query.md).
+5. Check the [instrument and resource account](../science/resources.md), then the [regimes and limitations](../science/interpretation.md).
+6. Use [related work](../references/RELATED_WORK.md) and [verification](../verification/README.md) to distinguish attribution, proof and finite checks.
 
 The anchor supplies foundations. The project supplies its specialized ensemble calculations, posterior moment optimization, extreme-overlap argument and clean-reflection construction. Additional primary papers remain scientific dependencies and attribution sources; they do not become extra educational anchors.

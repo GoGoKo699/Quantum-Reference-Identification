@@ -18,6 +18,10 @@ The information-arrival order belongs to the established framework of [Ballester
 
 The auxiliary finite-query classical ceiling comes from established positive channel structure. [Chiribella (2010), Eqs. (6)–(7)](https://arxiv.org/abs/1010.1875), decomposes universal measure-and-prepare estimation channels into loss and cloning terms. Its state-independent term gives the common-component weight used here. [Anshu, Landau and Liu (2022), Lemma 7 and Theorem 9](https://doi.org/10.1145/3519935.3519974), already exploit this mechanism in distributed quantum inner-product estimation, including separable-measurement lower bounds. The resulting finite-query bound of order 1/M+mt/d is a credited corollary, not the central new result.
 
+## Known deployment priors
+
+The [finite prior-weighted account](../science/prior_weighted_identification.md) adds a different decision criterion. The inherited Chiribella component and a matching posterior cap give an exact threshold for improving on the most probable label. [Quantum Learning Class Imbalance](https://github.com/GoGoKo699/Quantum-Learning-Class-Imbalance) supplies the binary rare-class threshold and the one-excitation partial-transpose argument. Its multiclass extension forces every classical POVM to lose useful coherences when the largest prior is unique. [He and Bergou (2007)](https://doi.org/10.1103/PhysRevA.75.032316) already give prior-dependent binary retained-optimum formulas. The present threshold and gap concern arbitrary collective classical training under the finite-query Haar model.
+
 ## Classical sketches and the reference budget
 
 [Zhang and Heidari (2025)](https://doi.org/10.4230/LIPIcs.ICDT.2025.16) construct reusable classical quantum-data sketches and search indexes. Their Corollaries 14 and 16 build empirical sketches from order d/epsilon^2 copies per state; Theorem 17 gives sublinear classical lookup after preprocessing. Their goal treats initialization samples differently from subsequent storage and lookup. Here the scarce reference budget itself is constrained and only one lookup is guaranteed. We claim neither their reusable index nor a faster database scan.

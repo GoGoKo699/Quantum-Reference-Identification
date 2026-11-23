@@ -46,6 +46,8 @@ The finite-query common-component upper bound in [classical preprocessing](class
 
 ## What follows, and what remains outside the model
 
+With unequal deployment priors, the [prior-weighted variant](prior_weighted_identification.md) gives an exact finite-query threshold for when a classical record helps at all. A single retained reference already helps in that classical plateau. A unique most probable label with a positive runner-up ensures a strict retained advantage on both sides of the threshold.
+
 The contribution is a multiclass copy frontier paired with a sharp classical-record saturation law across a delayed-query boundary. Quantum-memory advantages, state-comparison methods and measurement-order effects are established prior insights; the [comparison](../references/RELATED_WORK.md) makes that shared foundation explicit.
 
 This result assumes independent Haar pure states, equal reference budgets, a uniform label and one lookup. It does not prove a worst-case arbitrary-codebook converse, robustness for mixed/noisy states, reusable references, compressed quantum memory, or a runtime advantage over classical algorithms given full reference descriptions. The constructive scan performs up to $`M`$ tests and stores supplied quantum inputs; no index or amplitude amplification is free.

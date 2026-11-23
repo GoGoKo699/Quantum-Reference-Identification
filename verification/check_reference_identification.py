@@ -292,6 +292,8 @@ def check_clean_reflection(d=2,K=3):
 
 
 if __name__ == '__main__':
+    from check_prior_weighted import check_helstrom_blocks, check_posteriors
+
     rng=np.random.default_rng(20261101)
     cases=[(2,2,1,1),(2,3,1,1),(2,4,1,1),(2,2,2,1),
            (2,3,2,1),(2,2,1,3),(3,2,1,2),(3,3,1,1),
@@ -304,5 +306,9 @@ if __name__ == '__main__':
              'haar_quadrature_posteriors':haar_quadrature_checks(rng),
              'finite_covariant_checks':finite_covariant_checks(),
              'covariant_asymptotics':[covariant_asymptotic(a,round(a*a),m) for m in (1,2,3) for a in (10,30,100,300)],
+             'prior_weighted': {
+                 'posterior_density_cases': check_posteriors(),
+                 'helstrom_block_cases': check_helstrom_blocks(),
+             },
              'scope':'Finite matrix identities and deterministic attaining-strategy quadrature; no numerical proof of universal claims or novelty.'}
     print(json.dumps(results,indent=2))

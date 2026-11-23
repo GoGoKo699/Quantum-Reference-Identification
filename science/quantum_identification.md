@@ -246,4 +246,6 @@ The Bayesian converse must not be promoted to an all-library converse. For any f
 
 ## Attribution and verification
 
+The [prior-weighted variant](prior_weighted_identification.md) uses the same averaged projectors to design a one-reference receiver and prove a strict memory advantage when the largest deployment prior is unique.
+
 Haar integration, binary programmable identification, pretty-good measurements, Gao’s factor-four union bound, and Tyson’s generalized Holevo–Curlander bound are inherited. See [related work](../references/RELATED_WORK.md) for exact sources and the surviving multiclass contribution. [Verification](../verification/README.md) supplements these general proofs with finite projector, decoder and endpoint checks.

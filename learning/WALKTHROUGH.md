@@ -97,3 +97,7 @@ For comparison, independently measuring both references covariantly before that 
 The $`2/3`$ classical revealed-query value exceeds the finite-query quantum optimum $`0.644338`$ because it was granted extra query information. It cannot be used to judge the memory comparison at matched inputs. This toy calculation illustrates the operations and information boundary; the universal memory separation comes from the growing $`M`$, fixed $`m`$ theorem, with its stated dimension limit.
 
 Return to the [anchor bridge](ANCHOR_AND_BRIDGE.md), [scientific reading route](../science/README.md), or [verification guide](../verification/README.md).
+
+## Change only the deployment prior
+
+Keep the same three qubits and let the two labels have probabilities $`3/4`$ and $`1/4`$. One reference copy and one query copy give $`B=2`$. The largest prior exceeds twice the other, so every classical training record has optimal error $`1/4`$. If you keep the first reference, a singlet outcome against the query rules out the first label. It occurs with probability $`1/4`$ under the second label. Guessing the second label only on that outcome gives error $`3/16`$. Compare the [proof of the general threshold](../science/prior_weighted_identification.md) and the [binary training-copy analysis](https://github.com/GoGoKo699/Quantum-Learning-Class-Imbalance/blob/main/science/rare_class_query_copies.md).

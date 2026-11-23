@@ -198,6 +198,8 @@ The product formula should be used when the last relaxed bound exceeds one. The 
 
 ## Edge cases and scope
 
+The [prior-weighted identification theorem](prior_weighted_identification.md#exact-posterior-bounds-for-a-classical-record) combines the common component with a matching posterior cap to determine exactly when finite-query classical training improves on the most probable label rule.
+
 If $`M=1`$, success is one. If $`d=1`$ or $`m=0`$, the label cannot be distinguished and success is $`1/M`$, including at the revealed-query endpoint. If $`t=0`$, finite-query success is $`1/M`$. The beta-variable formula is stated for $`d\geq2`$; the $`d=1`$ case is handled separately.
 
 At each fixed finite $`d,M,m`$, ordinary query-state tomography followed by the revealed-query decision rule approaches the endpoint as $`t\to\infty`$. The posterior likelihoods are continuous functions of a pure state on a compact space, so consistency of the tomography estimate makes the decision regret vanish; ties do not prevent convergence of the success value. This limiting statement grants no efficient tomography or finite-query implementation for free.

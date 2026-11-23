@@ -83,6 +83,12 @@ The [full proof](../science/quantum_identification.md#error-converse-from-three-
 
 ## Research ingredients beyond the anchor
 
+### Unequal priors and the reference-query cut
+
+For the prior-weighted experiment, use Watrous §3.1.1, Theorem 3.4, for the positive spectral projector of a weighted binary difference. Use Chapter 6, §6.1.1 and §6.1.3, for separable measurement effects, then §6.2.3 for positive partial transpose. The relevant cut places all references on one side and the full query block on the other.
+
+The [prior-weighted proof](../science/prior_weighted_identification.md) adds two steps. The exact ratio of the smallest and largest possible posterior probabilities on a test direction gives a sharp dominance threshold. Separability then forces the classical decision effects to have zero reference-query entries on the one-excitation sector when the largest prior is unique. A two-dimensional Helstrom decision exploits those entries and strictly increases success.
+
 The [related-work account](../references/RELATED_WORK.md) credits Tyson’s generalized Holevo–Curlander bound, Gao’s sequential union bound and the inherited measure-and-prepare decomposition. These are primary research dependencies, not additional educational anchors. The [resource account](../science/resources.md) supplies the explicit symmetry instrument and its charged finite precision. Neither a textbook discrimination formula nor a POVM existence theorem supplies those gate and disturbance guarantees automatically.
 
 Use the [worked example](WALKTHROUGH.md) for a complete small instance, then return to the [scientific route](../science/README.md). The common milestone map organizes understanding; these pages record no individual reader’s assessment or progress.
