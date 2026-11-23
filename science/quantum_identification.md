@@ -165,12 +165,12 @@ The discrimination trace bound used here is the established generalized Holevoâ€
 
 Choose isometries $`V_j:\mathbb C^r\to\mathcal H`$ with $`V_jV_j^\dagger=P_j`$, concatenate them as $`T=[V_1\ \cdots\ V_M]`$, and let $`G=T^\dagger T`$ on an $`n=Mr`$ dimensional space. The nonzero spectra of $`G`$ and $`S=TT^\dagger`$ agree. The zero multiplicities of $`G`$ must be retained below.
 
-For a POVM $`\{E_j\}`$ set $`B_j=V_j^\dagger E_jV_j`$, so $`0\leq B_j\leq I`$. Stack $`\sqrt{E_j}`$ into an isometry $`A:\mathcal H\to\bigoplus_j\mathcal H`$. In the polar decomposition $`\sqrt{E_j}V_j=W_j\sqrt{B_j}`$, each $`W_j`$ can be a contraction, and $`W=\bigoplus_jW_j`$ is also a contraction. Thus
+For a POVM $`\{E_j\}`$ set $`B_j=V_j^\dagger E_jV_j`$, so $`0\leq B_j\leq I`$. Stack $`\sqrt{E_j}`$ into an isometry $`A:\mathcal H\to\bigoplus_j\mathcal H`$. In the polar decomposition $`\sqrt{E_j}V_j=W_j\sqrt{B_j}`$, each $`W_j`$ can be a contraction, and $`W=\bigoplus_jW_j`$ is also a contraction. Trace-norm duality gives
 
 ```math
 \sum_j\mathrm{Tr}\sqrt{B_j}
 =\mathrm{Tr}(W^\dagger AT)
-\leq\|T\|_1
+\leq\mathrm{Tr}\sqrt{T^\dagger T}
 =\mathrm{Tr}\sqrt G.
 ```
 Since $`\mathrm{Tr}B_j\leq\mathrm{Tr}\sqrt{B_j}`$,

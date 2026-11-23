@@ -63,11 +63,11 @@ On the one-excitation basis $`|100\rangle,|010\rangle,|001\rangle`$, the swap di
 1&-1&0
 \end{pmatrix},
 ```
-with eigenvalues $`0,\sqrt3,-\sqrt3`$. Flipping every qubit gives the same spectrum on the two-excitation sector; $`|000\rangle`$ and $`|111\rangle`$ give two additional zeros. Thus $`\|\rho_1-\rho_2\|_1=\sqrt3/3`$, where the trace norm adds absolute eigenvalues. Equal-prior binary discrimination yields
+with eigenvalues $`0,\sqrt3,-\sqrt3`$. Flipping every qubit gives the same spectrum on the two-excitation sector. The states $`|000\rangle`$ and $`|111\rangle`$ give two additional zeros. The trace norm of the difference adds the absolute eigenvalues, giving $`N=\sqrt3/3`$. Equal-prior binary discrimination yields
 
 ```math
 P_{\mathrm{opt}}=
-\frac12+\frac14\|\rho_1-\rho_2\|_1
+\frac12+\frac{N}{4}
 =\frac12+\frac{\sqrt3}{12}
 \approx0.644338.
 ```

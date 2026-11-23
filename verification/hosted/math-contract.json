@@ -34,8 +34,8 @@
     {
       "path": "learning/WALKTHROUGH.md",
       "index": 36,
-      "source_sha256": "996f06d3c4b90db25f993f379d2d64d56d6115e3a1454de53abd2cddf2209eb5",
-      "expected_text": "\n  \n    P\n    \n      \n        opt\n      \n    \n  \n  =\n  \n    1\n    2\n  \n  +\n  \n    1\n    4\n  \n  ∥\n  \n    ρ\n    1\n  \n  −\n  \n    ρ\n    2\n  \n  \n    ∥\n    1\n  \n  =\n  \n    1\n    2\n  \n  +\n  \n    \n      3\n    \n    12\n  \n  ≈\n  0.644338\n  .\n"
+      "source_sha256": "d2046b520d3fd2222b0dd0d5a7110045f7fe97a7c85aa0826cb49268a727b659",
+      "expected_text": "P opt = 1 2 + N 4 = 1 2 + 3 12 ≈ 0.644338 ."
     },
     {
       "path": "learning/WALKTHROUGH.md",

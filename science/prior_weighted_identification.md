@@ -12,7 +12,7 @@ Write $`D_s=\binom{d+s-1}{s}`$, $`B=\binom{m+t}{m}`$, and $`C=D_mD_t/D_{m+t}`$. 
 
 1. **Most probable label rule.** $`R_{\rm C}=1-\pi_1`$ if and only if $`\pi_1\geq B\pi_2`$. Under strict inequality, every optimal decision guesses label 1 with probability one. At equality, some other decisions can tie the optimum.
 2. **A retained reference.** Testing joint symmetry with the most probable reference alone and guessing label 2 on rejection yields risk $`1-\pi_1-\pi_2(1-1/C)`$. This strictly improves on the most probable label rule if $`\pi_2\gt0`$.
-3. **A unique most probable label.** If $`\pi_1\gt\pi_2\gt0`$, then $`R_{\rm Q}<R_{\rm C}`$, including when the classical record already improves on the most probable label rule.
+3. **A unique most probable label.** If $`\pi_1\gt\pi_2\gt0`$, then $`R_{\rm Q}\lt R_{\rm C}`$, including when the classical record already improves on the most probable label rule.
 
 For $`M=d=2`$ and $`t=1`$, setting $`m=n`$ and $`\pi_2=q`$ gives the threshold $`q\leq1/(n+2)`$ and the finite-training activation theorem in [Quantum Learning Class Imbalance](https://github.com/GoGoKo699/Quantum-Learning-Class-Imbalance). That project supplies the exact balanced-qubit comparator and develops the [binary rarity sample law](https://github.com/GoGoKo699/Quantum-Learning-Class-Imbalance/blob/main/science/rare_class_query_copies.md).
 
@@ -43,7 +43,7 @@ The state-independent term of the [universal estimation-channel decomposition](c
 \preceq\frac{D_m}{D_{m+t}}I_{\mathrm{Sym}^t}.
 ```
 
-The endpoints are attained against $`v^{\otimes t}`$ for a unit vector $`v`$. The upper endpoint uses $`a_{y,j}=|v^{\otimes m}\rangle\langle v^{\otimes m}|`$. The lower endpoint uses $`a_{y,j}=|u^{\otimes m}\rangle\langle u^{\otimes m}|`$ with $`u\perp v`$. The squared norm of the symmetrized product $`u^{\otimes m}\otimes v^{\otimes t}`$ is $`1/B`$. Exactly $`m!t!`$ of the $`(m+t)!`$ permutations preserve both orthogonal blocks.
+The endpoints are attained against $`v^{\otimes t}`$ for a unit vector $`v`$. The upper endpoint uses $`a_{y,j}=|v^{\otimes m}\rangle\langle v^{\otimes m}|`$. The lower endpoint uses $`a_{y,j}=|u^{\otimes m}\rangle\langle u^{\otimes m}|`$ with $`\langle u|v\rangle=0`$. The squared norm of the symmetrized product $`u^{\otimes m}\otimes v^{\otimes t}`$ is $`1/B`$. Exactly $`m!t!`$ of the $`(m+t)!`$ permutations preserve both orthogonal blocks.
 
 When $`\pi_1\geq B\pi_2`$, the bounds imply $`\pi_1\sigma_{y,1}\succeq \pi_j\sigma_{y,j}`$ for every $`j`$. Summing against the positive query POVM effects and using completeness bounds conditional success by $`\pi_1`$. Strict inequality gives positive definite dominance, so any nonzero effect for another label loses success on that record.
 
@@ -84,7 +84,7 @@ Set $`a=m/(m+t)`$ and $`b=t/(m+t)`$. On $`W`$, $`P_j`$ fixes $`|R_k\rangle`$ for
 - On $`|T\rangle`$ and $`|R_k\rangle`$ with $`k\ne1`$, guess label 1.
 - On $`|R_1\rangle`$, choose the larger of $`a\pi_1`$ and $`\pi_2`$.
 
-Hold all other basis decisions fixed and allow a joint decision between labels 1 and 2 on $`\operatorname{span}\{|R_1\rangle,|T\rangle\}`$. The unnormalized weighted difference there is
+Hold all other basis decisions fixed and allow a joint decision between labels 1 and 2 on the subspace spanned by $`|R_1\rangle,|T\rangle`$. The unnormalized weighted difference there is
 
 ```math
 H=
@@ -96,7 +96,7 @@ a\pi_1-\pi_2 & \sqrt{ab}\,\pi_1\\
 \det H=-b\pi_2\big[(1+a)\pi_1-\pi_2\big]\lt0.
 ```
 
-The opposite-sign eigenvalues make the positive spectral projector the unique optimizing effect for label 1 in this binary block. Its off-diagonal entry is nonzero. This change therefore strictly exceeds the best diagonal success on $`W`$. Since $`W`$ is invariant under every hypothesis, a new POVM on $`W`$ may be combined with the old effects compressed to $`W^\perp`$. No globally optimal POVM can be PPT across the reference-query cut. The finite-dimensional set of such PPT POVMs is compact, so even its best success is strictly below the global optimum.
+The opposite-sign eigenvalues make the positive spectral projector the unique optimizing effect for label 1 in this binary block. Its off-diagonal entry is nonzero. This change therefore strictly exceeds the best diagonal success on $`W`$. Since $`W`$ is invariant under every hypothesis, a new POVM on $`W`$ may be combined with the old effects compressed to the orthogonal complement of $`W`$. No globally optimal POVM can be PPT across the reference-query cut. The finite-dimensional set of such PPT POVMs is compact, so even its best success is strictly below the global optimum.
 
 ## Example and scope
 
