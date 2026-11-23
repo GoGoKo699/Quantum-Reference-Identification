@@ -165,12 +165,12 @@ The discrimination trace bound used here is the established generalized Holevo�
 
 Choose isometries $`V_j:\mathbb C^r\to\mathcal H`$ with $`V_jV_j^\dagger=P_j`$, concatenate them as $`T=[V_1\ \cdots\ V_M]`$, and let $`G=T^\dagger T`$ on an $`n=Mr`$ dimensional space. The nonzero spectra of $`G`$ and $`S=TT^\dagger`$ agree. The zero multiplicities of $`G`$ must be retained below.
 
-For a POVM $`\{E_j\}`$ set $`B_j=V_j^\dagger E_jV_j`$, so $`0\leq B_j\leq I`$. Stack $`\sqrt{E_j}`$ into an isometry $`A:\mathcal H\to\bigoplus_j\mathcal H`$. In the polar decomposition $`\sqrt{E_j}V_j=W_j\sqrt{B_j}`$, each $`W_j`$ can be a contraction, and $`W=\bigoplus_jW_j`$ is also a contraction. Thus
+For a POVM $`\{E_j\}`$ set $`B_j=V_j^\dagger E_jV_j`$, so $`0\leq B_j\leq I`$. Stack $`\sqrt{E_j}`$ into an isometry $`A:\mathcal H\to\bigoplus_j\mathcal H`$. In the polar decomposition $`\sqrt{E_j}V_j=W_j\sqrt{B_j}`$, each $`W_j`$ can be a contraction, and $`W=\bigoplus_jW_j`$ is also a contraction. Trace-norm duality gives
 
 ```math
 \sum_j\mathrm{Tr}\sqrt{B_j}
 =\mathrm{Tr}(W^\dagger AT)
-\leq\|T\|_1
+\leq\mathrm{Tr}\sqrt{T^\dagger T}
 =\mathrm{Tr}\sqrt G.
 ```
 Since $`\mathrm{Tr}B_j\leq\mathrm{Tr}\sqrt{B_j}`$,
@@ -245,5 +245,7 @@ with probability at least $`1-\eta`$ whenever the displayed $`\delta\leq1`$. If 
 The Bayesian converse must not be promoted to an all-library converse. For any fixed universal discriminator, Markov's inequality gives $`\Pr_{\mathrm{library}}[P_{\mathrm{success}}\geq s]\leq C/(Ms)`$ for $`s>0`$. A conditioning event $`E`$ of positive Haar probability has conditional mean success at most $`C/[M\Pr(E)]`$. These are precisely the available typical-library and promise-family consequences.
 
 ## Attribution and verification
+
+The [prior-weighted variant](prior_weighted_identification.md) uses the same averaged projectors to design a one-reference receiver and prove a strict memory advantage when the largest deployment prior is unique.
 
 Haar integration, binary programmable identification, pretty-good measurements, Gao’s factor-four union bound, and Tyson’s generalized Holevo–Curlander bound are inherited. See [related work](../references/RELATED_WORK.md) for exact sources and the surviving multiclass contribution. [Verification](../verification/README.md) supplements these general proofs with finite projector, decoder and endpoint checks.

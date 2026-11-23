@@ -12,6 +12,8 @@ In the **classical-training model**, an arbitrary collective POVM acts on all re
 
 The **revealed-query comparison** gives the decoder the exact classical description of the later query state after training. This is extra information, so its classical-training success upper-bounds every finite $`t`$ classical-training protocol. It does not give reference descriptions. The [retained-quantum endpoint](revealed_query.md) uses the same later description while retaining physical reference blocks.
 
+The [prior-weighted variant](prior_weighted_identification.md) uses the same library and timing with a known, possibly unequal deployment prior. The copy counts of the supplied references remain equal.
+
 ## Symmetric spaces
 
 Define

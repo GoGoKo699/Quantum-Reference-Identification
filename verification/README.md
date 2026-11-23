@@ -4,6 +4,7 @@ Run from the repository root:
 
 ```bash
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3 verification/check_reference_identification.py > verification/results.new.json
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3 verification/check_prior_weighted.py
 ```
 
 The script requires Python 3, NumPy and SciPy. It uses the fixed seed `20261101`
@@ -38,6 +39,8 @@ above the attaining value. This is a numerical illustration of the
 asymptotic theorem, whose proof is separate. Six additional finite cases check
 the attaining strategy below the moment converse; the four one-copy cases
 also compare quadrature against the exact gamma-function expression.
+
+The prior-weighted suite uses seed `379` for 48 random posteriors across six qubit, qutrit and four-dimensional copy-count configurations. Each configuration checks both coherent endpoints and the likelihood of the orthogonal-complement receiver. A separate 64-case check varies priors and copy counts to confirm the one-excitation determinant and the strict Helstrom improvement over a diagonal decision. These checks evaluate finite identities used in the proof.
 
 Small negative eigenvalues around `1e-17` in `results.json` are floating-point
 roundoff. Assertions use explicit numerical tolerances. A passed finite check

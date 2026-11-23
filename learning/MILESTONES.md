@@ -218,13 +218,13 @@ The allocation is **12 background/preliminaries milestones and 18 narrative/inno
 - **Conceptual connection:** The theorem concerns a fixed scarce-reference budget; substituting a growing copy count into its asymptotic would change the claim.
 - **Source pointers:** Watrous §1.2.2 and §7.2.1–§7.2.2; [attaining lower proof](../science/classical_preprocessing.md#attaining-lower-bound); [the sharp theorem](../science/classical_preprocessing.md#sharp-asymptotic-ceiling-for-a-fixed-reference-budget).
 
-### M27 — The inherited finite-query obstruction
+### M27 — The finite-query prior threshold
 
-- **Central question:** How does a state-independent posterior component obstruct finite-query classification?
-- **Understanding target:** Explain the positive measure-and-prepare decomposition and why its common component cannot identify a label. Distinguish this bound from the sharper ceiling that survives a perfectly revealed query.
-- **Dependencies and story role:** M06, M08 and M22–M26; locate an important related mechanism within the completed classical account.
-- **Conceptual connection:** A useful finite-query separation follows from established channel machinery; attribution prevents that inherited mechanism from absorbing the new claim.
-- **Source pointers:** Watrous §2.2.2–§2.2.3 and §7.2.2 for the channel and averaging framework; [common-component account](../science/classical_preprocessing.md#the-inherited-finite-query-common-component), which identifies the additional Chiribella and Anshu–Landau–Liu sources.
+- **Central question:** When can a classical training record improve on always guessing the most probable label?
+- **Understanding target:** Compare the inherited posterior floor with the posterior cap. Use prior weighting to derive the dominance threshold, and use orthogonal reference directions to obtain an attaining witness and an equality case.
+- **Dependencies and story role:** M06, M08 and M22–M26. Return from the revealed-query converse to the finite-query posterior and allow known unequal priors.
+- **Conceptual connection:** The ratio of posterior extremes, rather than either bound alone, determines the precise threshold.
+- **Source pointers:** Watrous §2.2.2–§2.2.3 and §7.2.1 for the channel and averaging framework. [Common component](../science/classical_preprocessing.md#the-inherited-finite-query-common-component) and [sharp prior threshold](../science/prior_weighted_identification.md#exact-posterior-bounds-for-a-classical-record).
 
 ### M28 — An exactly solvable retained-quantum endpoint
 
@@ -234,18 +234,18 @@ The allocation is **12 background/preliminaries milestones and 18 narrative/inno
 - **Conceptual connection:** Query tomography can approach the endpoint at fixed parameters, but is not granted as an efficient or finite-copy primitive.
 - **Source pointers:** Watrous §2.3 and §3.1.2; [revealed-query endpoint](../science/revealed_query.md); [classical endpoint scope](../science/classical_preprocessing.md#edge-cases-and-scope).
 
-### M29 — A resource-matched separation
+### M29 — Retained-reference advantages at matched inputs
 
-- **Central question:** Which parameter regime demonstrates the value of retaining the supplied references?
-- **Understanding target:** Explain the one-reference-copy comparison with a linear query-copy budget in sufficiently large dimension; contrast fixed-copy saturation with the logarithmic classical-copy necessity and the matched shadow upper comparator.
-- **Dependencies and story role:** M19, M21 and M26–M28; connect quantum attainability, classical impossibility and known baselines into one operational statement.
-- **Conceptual connection:** Matching supplied references and later information reveals a memory/chronology advantage without claiming an exponential total-sample or runtime improvement.
-- **Source pointers:** Watrous §3.1.2 and §7.2.1 for the discrimination and random-state framework; [classical preprocessing loss](../science/interpretation.md#what-classical-preprocessing-loses); [growing budgets and baselines](../science/interpretation.md#growing-reference-budgets-and-matched-baselines); [related work](../references/RELATED_WORK.md).
+- **Central question:** How can retained references help with a growing uniform library or with a uniquely most probable label?
+- **Understanding target:** Compare the high-dimensional uniform-library separation with the finite-copy prior gap. For the latter, apply partial transpose at the reference-query cut to the one-excitation sector and explain how a Helstrom decision surpasses its diagonal optimum. Recover the single-reference receiver inside the classical threshold.
+- **Dependencies and story role:** M19, M21 and M26–M28. Connect achievable decisions with the two classical obstructions.
+- **Conceptual connection:** The uniform comparison uses a dimensional limit and fixed reference budget. The prior gap uses a unique most probable label at finite copy counts.
+- **Source pointers:** Watrous §3.1.1–§3.1.2, §6.1.3 and §6.2.3. [Uniform-library loss](../science/interpretation.md#what-classical-preprocessing-loses), [shadow comparator](../science/interpretation.md#growing-reference-budgets-and-matched-baselines) and [strict prior gap](../science/prior_weighted_identification.md#why-a-classical-record-loses-with-a-unique-most-probable-label).
 
 ### M30 — The complete scientific conclusion and its boundary
 
 - **Central question:** What has this project established, and what would require a different theorem?
-- **Understanding target:** Give a connected account of the multiclass finite-query frontier, sharp classical saturation and implementable scan, with correct attribution, input costs, dimension and chronology conditions. Identify why arbitrary libraries, mixed/noisy states, repeated reuse and runtime superiority remain outside the result.
+- **Understanding target:** Explain the uniform-prior copy frontier, fixed-reference classical saturation and implementable scan. State the finite-query threshold for any known prior and the separate strict-gap condition. Give the supplied resource counts and identify the remaining tied-prior, noise and reuse questions.
 - **Dependencies and story role:** M12–M29; synthesize the whole narrative rather than append an extra technical topic.
 - **Conceptual connection:** Correct proofs, inherited tools, the surviving contribution, finite validation and scope qualifications are distinct parts of the scientific account.
-- **Source pointers:** Watrous §2.1–§2.3, §3.1.2 and §7.1–§7.2 as the shared framework; [scientific route](../science/README.md); [scope and interpretation](../science/interpretation.md#what-follows-and-what-remains-outside-the-model); [attribution](../references/RELATED_WORK.md); [verification](../verification/README.md).
+- **Source pointers:** Watrous §2.1–§2.3, §3.1, §6.1 and §7.1–§7.2. [Scientific route](../science/README.md), [scope](../science/interpretation.md#what-follows-and-what-remains-outside-the-model), [attribution](../references/RELATED_WORK.md) and [verification](../verification/README.md).
